@@ -1,0 +1,33 @@
+News Management application
+
+SonarQube   - http://EPBYMINW8106:9000/dashboard?id=com.epam.lab%3Anews
+Jenkins job - http://EPBYMINW8106:8080/job/Git%20job/
+Deploy link - http://EPBYMINW8106:8888/news/
+
+Credentials to Jenkins:
+    Admin:      username - admin
+                password - 123admin123
+    Developer:  username - developer
+                password - 123developer123
+
+Rest API:
+    Tag:
+        GET: /tags/id - Gets tag by id.
+        GET: /tags - Gets all tags.
+        POST: /tags - Creates new tag.
+        DELETE: /tags/id - Deletes tag by id.
+        PUT: /tags/id - Updates tag by id.
+    Author:
+        GET: /authors/id - Gets author by id.
+        GET: /authors - Gets all authors.
+        POST: /authors - Creates new author.
+        DELETE: /authors/id - Deletes author by id.
+        PUT: /authors/id - Updates author by id.
+    News:
+        GET: /news/id - Gets news by id.
+        POST: /news - Creates new news.
+        DELETE: /news/id - Deletes news by id.
+        PUT: /news/id - Updates news by id.
+        GET: /news/count - Gets all news count.
+        GET: /news - Gets all news
+             /news?name=Misha&surname=Kolesnik&tagNames=epam,food,auto&sort=author - Search criteria (All parameters are variable, can placed not only in such order)
