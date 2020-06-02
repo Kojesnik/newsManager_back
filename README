@@ -6,9 +6,9 @@ Deploy link - http://EPBYMINW8106:8888/news/
 
 Credentials to Jenkins:
     Admin:      username - admin
-                password - 123admin123
+                password - 1****
     Developer:  username - developer
-                password - 123developer123
+                password - 1****
 
 Rest API:
     Tag:
